@@ -1,2 +1,17 @@
-# create-app-action
-Create Shipa App
+# Create Shipa App Action
+
+This action creates Shipa application
+
+## Inputs
+
+## `file-path`
+
+**Required** path to app.yml file.
+
+## Example usage
+
+```yaml
+  uses: actions/shipa-create-app-action@v1
+  with:
+    file-path: './apps/app.yml'
+```
